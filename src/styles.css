@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+.news-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  width: 50%;
+}
+
+.news-item {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+  align-items: start;
+}
+
+.news-item-info {
+  display: flex;
+  flex-direction: column;
+  color: var(--body-color, black);
+}
+
+.news-item-info h3 {
+  color: var(--primary, blue);
+}
+
+.news-item-info p {
+  overflow-wrap: break-word;
+}
+
+.news-item-info span {
+  text-align: right;
+}
